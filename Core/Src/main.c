@@ -162,8 +162,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-void NotHappy() {
-  HAL_Delay(1000);
+void Nothing() {
+  HAL_Delay(50);
+}
+void Happyhappyhappy() {
+  Nothing();
 }
 /* USER CODE END 4 */
 
