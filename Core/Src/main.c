@@ -162,7 +162,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void Nothing() {
+}
+void Happyhappyhappy() {
+  Nothing();
+}
 /* USER CODE END 4 */
 
 /**
