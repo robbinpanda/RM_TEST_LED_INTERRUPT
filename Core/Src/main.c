@@ -163,6 +163,7 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 void Nothing() {
+  HAL_Delay(50);
 }
 void Happyhappyhappy() {
   Nothing();
